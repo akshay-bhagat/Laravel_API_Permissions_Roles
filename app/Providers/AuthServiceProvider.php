@@ -31,7 +31,12 @@ class AuthServiceProvider extends ServiceProvider
 
         Passport::tokensCan([
             'access-route1' => 'Can Access Route 1',
-            'access-route1' => 'Can Access Route 2',
+            'access-route2' => 'Can Access Route 2',
+            'create-user' => 'Can Create User',
+            'edit-user' => 'Can Edit user',
+            'view-user' => 'Can View user',
+            'delete-user' => 'Can Delete user',
+
         ]);
 
         /**
